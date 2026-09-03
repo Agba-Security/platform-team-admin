@@ -10,13 +10,13 @@ This repository follows [Conventional Commits](https://www.conventionalcommits.o
 ```
 
 **For Platforms Repo**
-feat(networking): add private subnets
-fix(identity): correct IAM trust policy
-docs(core): update deployment instructions
-refactor(terraform): simplify repository loop
-test(networking): add validation tests
-ci(actions): add terraform plan workflow
-security(identity): restrict IAM permissions
+- feat(networking): add private subnets
+- fix(identity): correct IAM trust policy
+- docs(core): update deployment instructions
+- refactor(terraform): simplify repository loop
+- test(networking): add validation tests
+- ci(actions): add terraform plan workflow
+- security(identity): restrict IAM permissions
 
 **Types:**
 - feat      New functionality
