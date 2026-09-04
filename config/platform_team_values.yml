@@ -1,0 +1,31 @@
+github_repositories:
+
+  - name: platform-team-admin
+    description: Repository to manage platform team membership and admin artifacts
+    commit_convention: "CONTRIBUTE.md"
+  
+  - name: platform-core
+    description: Core platform runtime
+    commit_convention: "CONTRIBUTE.md"
+
+  - name: platform-demo-apps
+    description: Demo applications for testing the platform
+    commit_convention: "CONTRIBUTE.md"
+
+  - name: platform-networking
+    description: Networking components for the platform
+    commit_convention: "CONTRIBUTE.md"
+
+  - name: platform-identity
+    description: Identity and access management for the platform
+    commit_convention: "CONTRIBUTE.md"
+
+  - name: platform-extentions
+    description: Extensions and plugins for the platform
+    commit_convention: "CONTRIBUTE.md"
+   
+github_organization_members:
+  - name: Tochukwu
+    github-role: member
+    github-username: agbasec
+    email: agbainsights@gmail.com
