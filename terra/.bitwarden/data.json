@@ -1,0 +1,18 @@
+{
+  "stateVersion": 83,
+  "global_applicationId_appId": "4614ac7e-e089-43d6-a8cb-db0cbd46007e",
+  "global_environment_environment": {
+    "region": "Self-hosted",
+    "urls": {
+      "base": "https://vault.bitwarden.eu",
+      "api": null,
+      "identity": null,
+      "webVault": null,
+      "icons": null,
+      "notifications": null,
+      "events": null,
+      "keyConnector": null,
+      "send": null
+    }
+  }
+}
