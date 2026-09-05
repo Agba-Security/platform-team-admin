@@ -3,7 +3,7 @@ data "bitwarden_item_login" "github_secrets" {
 }
 
 data "github_repository_file" "commit" {
-  for_each = github_repository.repositories
+  for_each   = github_repository.repositories
   repository = each.value.name
   branch     = "main"
   file       = "CONTRIBUTE.md"

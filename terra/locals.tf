@@ -5,12 +5,12 @@ locals {
 
   repositories = {
     for repo in local.platform_config.github_repositories :
-        repo.name => repo
+    repo.name => repo
   }
 
   team_members = {
     for member in local.platform_config.github_organization_members :
-        member.github-username => member
+    member.github-username => member
   }
 }
 

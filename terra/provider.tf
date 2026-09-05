@@ -13,7 +13,7 @@ terraform {
 }
 
 provider "bitwarden" {
-  server = "https://vault.bitwarden.eu"
+  server     = "https://vault.bitwarden.eu"
   vault_path = "/home/tochukwu/snap/bw/current/Bitwarden CLI"
   # vault_path = ""
 }
