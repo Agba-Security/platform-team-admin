@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.1.0](https://github.com/Agba-Security/platform-team-admin/compare/v1.0.0...v1.1.0) (2026-09-05)
+
+
+### Features
+
+* **commit-convention:** enforce commit convention ([9a4e43c](https://github.com/Agba-Security/platform-team-admin/commit/9a4e43c1a97cec0bab39e17f707b3054d16ff13c))
+
+
+### Bug Fixes
+
+* **workflow:** automated terraform validation, formating and plan and also added release-please config and manifest keys ([9a5278e](https://github.com/Agba-Security/platform-team-admin/commit/9a5278eaf8f2a48ebb0d4815ab005ba837b8a794))
+* **workflows:** fixed actions to see terraform folder from the root ([bc97b71](https://github.com/Agba-Security/platform-team-admin/commit/bc97b71053a0e2855cbbcdb666c4353d6cef4687))
+
 ## 1.0.0 (2026-09-04)
 
 
