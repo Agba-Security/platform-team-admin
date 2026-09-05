@@ -1,0 +1,49 @@
+name: Commit Convention
+
+on:
+  pull_request:
+    branches:
+      - main
+      - develop
+
+permissions:
+  contents: read
+
+jobs:
+  validate-commits:
+    name: Validate Conventional Commits
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Make validator executable
+        run: chmod +x scripts/validate-commit-message.sh
+
+      - name: Validate all PR commit messages
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          set -euo pipefail
+
+          echo "Validating commits between:"
+          echo "$BASE_SHA"
+          echo "$HEAD_SHA"
+          echo
+
+          while IFS= read -r commit; do
+
+            message=$(git show -s --format=%s "$commit")
+
+            echo "Checking $commit"
+            echo "Message: $message"
+
+            ./scripts/validate-commit-message.sh "$message"
+
+            echo
+
+          done < <(git rev-list --reverse "$BASE_SHA..$HEAD_SHA")
