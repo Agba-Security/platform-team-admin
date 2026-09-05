@@ -4,6 +4,5 @@ terra/terraform.tfstate
 terra/terraform.tfstate.*
 terra/.terraform/
 terra/export_secrets.sh
-scripts
 *.tvars
 crash.log
