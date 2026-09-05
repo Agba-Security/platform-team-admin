@@ -4,4 +4,4 @@ set -euo pipefail
 
 REPO_ROOT="$(git rev-parse --show-toplevel)"
 
-"$REPO_ROOT/scripts/validate-commit-msg.sh" "$1"
+"$REPO_ROOT/scripts/validate-commit-message.sh" "$1"
