@@ -21,7 +21,7 @@ jobs:
           fetch-depth: 0
 
       - name: Make validator executable
-        run: chmod +x scripts/validate-commit-message.sh
+        run: chmod +x scripts/validate-commit-msg.sh
 
       - name: Validate all PR commit messages
         env:
@@ -42,7 +42,7 @@ jobs:
             echo "Checking $commit"
             echo "Message: $message"
 
-            ./scripts/validate-commit-message.sh "$message"
+            ./scripts/validate-commit-msg.sh "$message"
 
             echo
 
