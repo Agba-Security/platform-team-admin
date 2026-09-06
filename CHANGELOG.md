@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.1.1](https://github.com/Agba-Security/platform-team-admin/compare/v1.1.0...v1.1.1) (2026-09-06)
+
+
+### Bug Fixes
+
+* **ci:** corrected the path for commit-msg valdation and chnged to on:worrkflow_dispatch on the terraform CI ([818b84b](https://github.com/Agba-Security/platform-team-admin/commit/818b84b0a0b6f5d2ec4db70cd9fdc4e918767c1c))
+* **commit-convention:** addedd a working commit-msg to the workflow ([25b8013](https://github.com/Agba-Security/platform-team-admin/commit/25b8013bc5f4d90101f8e984fae76aa7954a7be8))
+* **config:** corrected the file name and path for commit-msg validation ([0bbbb8d](https://github.com/Agba-Security/platform-team-admin/commit/0bbbb8d97aa96743936597d4858ca6f29d03657c))
+* **config:** fixed the commit-msg validation and installation duuring git pull ([3735676](https://github.com/Agba-Security/platform-team-admin/commit/3735676858e5dcdea6fed1345dd283a16497f54c))
+
+
+### CI/CD
+
+* **action:** addedd a commit-msg validation on the repo CI ([a825cc2](https://github.com/Agba-Security/platform-team-admin/commit/a825cc22c9252d11e13d5f26a55a654a9a3c5c01))
+
 ## [1.1.0](https://github.com/Agba-Security/platform-team-admin/compare/v1.0.0...v1.1.0) (2026-09-05)
 
 
